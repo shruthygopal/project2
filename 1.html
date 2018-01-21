@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Movie</title>
+<link rel="stylesheet" type="text/css" href="./css/reset.css">
+<link rel="stylesheet" type="text/css" href="./css/movie.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:300"rel="stylesheet">
+<meta name="description"content="My Add Movie">
+<meta charset="utf-8">
+</head>
+<body>
+  <header>
+    <img src="./images/projector-logo.png"class="logo">
+    <nav>
+      <ul class="fright">
+        <li><a href="#" class="sh">Home</a>
+        <a href="#" class="sh">Add Movie</a></li>
+      </ul>
+    </nav>
+  </header>
+<div class="clearfix"></div>
+
+  <form action="sample-action"method="post"class="sd">
+      <h2>ADD A MOVIE</h2>
+   <ul >
+    <li><label for="movie">MOVIE</label>
+    <input id="movie" type="text"name="movie"required/></li>
+    <li><label for="relese year">RELEASE YEAR</label>
+      <input type="text"name="release year"/></li>
+      <div class="div1">
+        <label for="language">LANGUAGE</label>
+        <select name="language">
+          <option>English</option>
+          <option>Tamil</option>
+          <option>Hindi</option>
+        </select></div><div class="div2">
+        <label for="rating">RATING</label>
+        <select name="rating">
+          <option>very Good</option>
+          <option>Good</option>
+          <option>Average</option>
+          <option>Bad</option>
+        </select>
+      </div>
+      <li>
+        <label for="thumb">THUMBNAIL URL</label>
+        <input type="url"name="thumb"/>
+      </li>
+      <li>
+        <label for="plot">PLOT</label>
+        <textarea rows="2"cols="10"></textarea>
+      </li>
+      <li>
+        <label for="poster">POSTER URL</label>
+        <input type="url"name="poster"/>
+      </li>
+      <li>
+        <label for="cast">CAST</label>
+        <textarea rows="2"cols="20"></textarea>
+      </li>
+      <li>
+      <button name="save"value="save">SAVE</button>
+    </li>
+  </form>
+  <footer>
+   <img src="./images/facebook.png"class="ss">
+    <img src="./images/instagram.png"class="ss">
+    <img src="./images/twitter.png"class="ss">
+    <img src="./images/projector-logo.png"class="logo1">
+  </footer>
+</body>
+</html>

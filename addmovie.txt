@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Add Movie</title>
+<link rel="stylesheet" type="text/css" href="reset.css">
+<meta name="description"content="My Add Movie">
+<meta charset="utf-8">
+</head>
+<body>
+  <header>
+    <img src="./images/projector-logo.png">
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li> <a href="#">Add Movie</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <h2>ADD A MOVIE</h2>
+  <form action="sample-action"method="post">
+   <ul>
+    <li><label for="movie">movie</label>
+    <input id="movie" type="text"name="movie"required/></li>
+    <li><label for="relese year">Release year</label>
+      <input type="text"name="release year"/></li>
+      <li><label for="language">Language</label>
+        <select name="language">
+          <option>English</option>
+          <option>Tamil</option>
+          <option>Hindi</option>
+        </select>
+        <label for="rating">Rating</label>
+        <select name="rating">
+          <option>very Good</option>
+          <option>Good</option>
+          <option>Average</option>
+          <option>Bad</option>
+        </select>
+      </label></li>
+      <li>
+        <label for="thumb">ThumbNail URL</label>
+        <input type="url"name="thumb"/>
+      </li>
+      <li>
+        <label for="plot">Plot</label>
+        <textarea rows="2"cols="10"></textarea>
+      </li>
+      <li>
+        <label for="poster">Poster URL</label>
+        <input type="url"name="poster"/>
+      </li>
+      <li>
+        <label for="cast">Cast</label>
+        <textarea rows="2"cols="20"></textarea>
+      </li>
+      <li>
+      <input type="submit"name="save"value="save">
+    </li>
+  </form>
+</body>
+</html>
